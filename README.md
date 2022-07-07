@@ -1,3 +1,5 @@
 # MOD2_Projeto01_C17
 
-data para entrega 04/07/22
+Em criação
+
+data para entrega 12/07/22
