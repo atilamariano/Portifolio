@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: url("../img/fotoPerfil.jpg")  right no-repeat fixed; 
+    background-color: rgb(5, 5, 5);
+  }
+
+nav{
+    background-color: black;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+nav#navBar{
+    position: fixed;
+    width: 100%;
+    padding: 1rem;
+}
+
+nav#navBar ul{
+    display: flex;
+    list-style: none;
+    margin: 0 3rem;
+    justify-content: space-between;
+}
+
+nav#navBar ul a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.2rem;
+    transition-duration: 0.4s;
+}
+
+nav#navBar ul a:hover{
+    color: #03bcf5;
+}
+
+header#cabecalho{
+    width: 100%;
+    padding: 9rem 0 7rem 5rem ;
+}
+
+header p.linha {
+    color: #03bcf5;
+    font-weight: bold;
+}
+
+header h1{
+    color: aliceblue;
+    margin-top: 2rem;
+    font-weight: 800;
+}
+
+header h2#area{
+    color: #03bcf5;
+}
+
+button{
+    margin: 2rem .5rem;
+    background-color: black;
+    border-color: #03bcf5;
+    padding: .6rem 1rem .6rem 1rem;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+button a{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+main section#cards{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    flex-wrap: wrap; 
+    flex-direction: row;
+}
+
+section#cards div.card {
+    background-color: rgb(32, 31, 31);
+    margin: 1rem;
+    height: 300px;
+    width: 300px;
+    padding: 1.5rem;
+}
+
+section#cards div.card h3 {
+    color: #03bcf5;
+    font-size: 1.5rem;
+    margin-bottom: .5rem;
+    text-align: center;
+}
+
+section#cards div.card p#meutexto {
+    font-size: 12px;
+}
+
+main section#cards div#cursos article h4 {
+    margin-top: 10px;
+}
+
+section#cards div#ferramentas {
+    box-shadow: 30px 30px 0px 0px #03bcf5;
+}
+
+div#ferramentas img.logs{
+    width: 7vh;
+    margin: 5.5px;
+}
+
+section#projetos{
+    display: flex;
+    width: 100%;
+    height: 30rem;
+    padding-top: 3rem;
+    background-color: rgb(19, 19, 19);
+    flex-wrap: wrap; 
+    flex-direction: row;
+    justify-content: center;
+}
+
+section#projetos h3{
+    color: white;
+}
+
+section#projetos div.card2 {
+    display: flex;
+    margin: 10px;
+    background-color: rgb(32, 31, 31);
+    padding: 1rem 3rem;
+}
+
+img.imagem{
+    height: 15px;
+    width: 15px;
+    margin-left: 2rem;
+}
+
+p{
+    color: aliceblue;
+}
+
+h4{
+    color: antiquewhite;
+}
+
