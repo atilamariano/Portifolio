@@ -1,18 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
 
-* {
+* {          /* Configuraçao para toda a pagina*/
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
 }
 
-body{
+body{    /*Configuração do Body*/
     background: url("../img/fotoPerfil.jpg")  right no-repeat fixed; 
     background-color: rgb(5, 5, 5);
   }
 
-nav{
+nav{      /* Inicio da configuração da NAV*/
     background-color: black;
     flex-wrap: wrap; 
     flex-direction: row;
@@ -42,7 +42,7 @@ nav#navBar ul a:hover{
     color: #03bcf5;
 }
 
-header#cabecalho{
+header#cabecalho{        /* Inicio das configurações do HEADER*/
     width: 100%;
     padding: 9rem 0 7rem 5rem ;
 }
@@ -62,7 +62,7 @@ header h2#area{
     color: #03bcf5;
 }
 
-button{
+button{     /* Inicio da configurações dos BOTTON*/
     margin: 2rem .5rem;
     background-color: black;
     border-color: #03bcf5;
@@ -77,7 +77,7 @@ button a{
     font-size: 1rem;
 }
 
-main section#cards{
+section#cards{   /* Inicio  da configurações do CARD DE DADOS PESSOAIS*/
     display: flex;
     width: 100%;
     justify-content: center;
@@ -90,34 +90,32 @@ section#cards div.card {
     margin: 1rem;
     height: 300px;
     width: 300px;
-    padding: 1.5rem;
+    padding: 1.6rem;
+    color: white;
 }
 
 section#cards div.card h3 {
     color: #03bcf5;
     font-size: 1.5rem;
-    margin-bottom: .5rem;
     text-align: center;
+    margin-bottom: 5px;
+}
+
+section#cards div.card h4 {
+    color: #03bcf5;
+    font-size: 17px;
+    margin-top: 2px;
 }
 
 section#cards div.card p#meutexto {
     font-size: 12px;
 }
 
-main section#cards div#cursos article h4 {
-    margin-top: 10px;
-}
-
-section#cards div#ferramentas {
-    box-shadow: 30px 30px 0px 0px #03bcf5;
-}
-
 div#ferramentas img.logs{
-    width: 7vh;
-    margin: 5.5px;
+    width: 7.5vh;
 }
 
-section#projetos{
+section#projetos{  /* Inicio  das configurações da section dos PROJETOS*/
     display: flex;
     width: 100%;
     height: 30rem;
@@ -137,19 +135,35 @@ section#projetos div.card2 {
     margin: 10px;
     background-color: rgb(32, 31, 31);
     padding: 1rem 3rem;
+    align-items: center;
 }
 
 img.imagem{
     height: 15px;
     width: 15px;
-    margin-left: 2rem;
+    margin-left: 3rem;
 }
 
-p{
-    color: aliceblue;
+footer {    /* Inicio  das configurções do FOOTER*/
+    background-color: #222121;
+    padding: 20px;
+    text-align: center;
+    color: #ffffff;
 }
 
-h4{
-    color: antiquewhite;
+a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
 }
 
+footer a:hover {
+    color: #03bcf5;
+}
+           /* Media screen para responsividade das imagens  */
+@media screen and (min-width: 50px) and (max-width: 1200px) {
+    *{
+        display: inline-blok;
+    }
+}
