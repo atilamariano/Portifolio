@@ -70,6 +70,7 @@ button{     /* Inicio da configurações dos BOTTON*/
     padding: .6rem 1rem .6rem 1rem;
     flex-wrap: wrap; 
     flex-direction: row;
+    transition-duration: 0.4s;
 }
 
 button a{
@@ -79,7 +80,7 @@ button a{
 }
 
 button:hover{
-    
+    box-shadow: 0 0 1em #ffffff;
 }
 
 section#cards{   /* Inicio  da configurações do CARD DE DADOS PESSOAIS*/
@@ -158,6 +159,11 @@ img.imagem{
     height: 15px;
     width: 15px;
     margin-left: 3rem;
+    transition-duration: 0.4s;
+}
+
+img.imagem:hover{
+    box-shadow: 0 0 1em #03bcf5;
 }
 
 footer {    /* Inicio  das configurções do FOOTER*/
@@ -172,6 +178,7 @@ a {
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
+    transition-duration: 0.4s;
 }
 
 footer a:hover {
