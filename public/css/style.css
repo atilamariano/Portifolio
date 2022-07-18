@@ -78,6 +78,10 @@ button a{
     font-size: 1rem;
 }
 
+button:hover{
+    
+}
+
 section#cards{   /* Inicio  da configurações do CARD DE DADOS PESSOAIS*/
     display: flex;
     width: 100%;
@@ -92,7 +96,7 @@ section#cards div.card {
     height: 300px;
     width: 300px;
     padding: 1.6rem;
-    color: white;
+    color: #ffffff;
 }
 
 section#cards div.card h3 {
@@ -116,6 +120,10 @@ div#ferramentas img.logs{
     width: 7.5vh;
 }
 
+section#cards div#ferramentas {
+    box-shadow: 2.5rem 2.5rem #03bcf5;
+}
+
 section#projetos{  /* Inicio  das configurações da section dos PROJETOS*/
     display: flex;
     width: 100%;
@@ -130,7 +138,8 @@ section#projetos{  /* Inicio  das configurações da section dos PROJETOS*/
 section#projetos h2{
     font-size: 2rem;
     color: white;
-    align-content: center;
+    text-align: center;
+    width: 100%;
 }
 
 section#projetos h3{
