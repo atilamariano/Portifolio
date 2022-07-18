@@ -8,8 +8,9 @@
 }
 
 body{    /*Configuração do Body*/
-    background: url("../img/fotoPerfil.jpg")  right no-repeat fixed; 
+    background: url("../img/fotoPerfil.jpg") right no-repeat fixed; 
     background-color: rgb(5, 5, 5);
+    background-size: 300px;
   }
 
 nav{      /* Inicio da configuração da NAV*/
@@ -124,6 +125,12 @@ section#projetos{  /* Inicio  das configurações da section dos PROJETOS*/
     flex-wrap: wrap; 
     flex-direction: row;
     justify-content: center;
+}
+
+section#projetos h2{
+    font-size: 2rem;
+    color: white;
+    width: 100%;
 }
 
 section#projetos h3{
