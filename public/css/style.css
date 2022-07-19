@@ -28,8 +28,7 @@ nav#navBar{
 nav#navBar ul{
     display: flex;
     list-style: none;
-    margin: 0 3rem;
-    justify-content: space-between;
+    margin: 0 5rem 0 3rem;
 }
 
 nav#navBar ul a{
