@@ -8,7 +8,7 @@
 }
 
 body{    /*Configuração do Body*/
-    background: url("../img/fotoPerfil.jpg") right no-repeat fixed; 
+    background: url("../img/fotoPerfil.png") right no-repeat fixed; 
     background-color: #050505;
     background-size: 300px;
   }
@@ -69,7 +69,7 @@ button{     /* Inicio da configurações dos BOTTON*/
     padding: .6rem 1rem .6rem 1rem;
     flex-wrap: wrap; 
     flex-direction: row;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 button a{
@@ -97,6 +97,11 @@ section#cards div.card {
     width: 300px;
     padding: 1.6rem;
     color: #ffffff;
+    transition-duration: 0.3s;
+}
+
+section#cards div.card:hover{
+    box-shadow: 0 0 1em #ffffff;
 }
 
 section#cards div.card h3 {
@@ -123,6 +128,8 @@ div#ferramentas img.logs{
 section#cards div#ferramentas {
     box-shadow: 2.5rem 2.5rem #03bcf5;
 }
+
+
 
 section#projetos{  /* Inicio  das configurações da section dos PROJETOS*/
     display: flex;
@@ -152,13 +159,18 @@ section#projetos div.card2 {
     background-color: #201f1f;
     padding: 1rem 3rem;
     align-items: center;
+    transition-duration: 0.3s;
+}
+
+section#projetos div.card2:hover{
+    box-shadow: 0 0 1em #ffffff;
 }
 
 img.imagem{
     height: 15px;
     width: 15px;
     margin-left: 3rem;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 img.imagem:hover{
@@ -177,7 +189,7 @@ a {
     text-decoration: none;
     padding: 20px;
     font-size: 20px;
-    transition-duration: 0.4s;
+    transition-duration: 0.3s;
 }
 
 footer a:hover {
