@@ -14,7 +14,7 @@ body{    /*Configuração do Body*/
   }
 
 nav{      /* Inicio da configuração da NAV*/
-    background-color: #000000;
+    background-color: #0f0f0f;
     flex-wrap: wrap; 
     flex-direction: row;
 }
